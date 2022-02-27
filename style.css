@@ -18,9 +18,9 @@ header a>h1 {
     font-family: 'Cinzel Decorative', cursive;
     font-weight: 900;
     text-align: center;
-    background-color: rgb(58, 58, 58);
+    /* background-color: rgb(58, 58, 58); */
     width: 150px;
-    border-radius: 0px 20px 0px 20px;
+    /* border-radius: 3px 20px 3px 20px; */
 }
 
 header li {
@@ -35,4 +35,8 @@ header a {
     color: whitesmoke;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+nav {
+    
 }
