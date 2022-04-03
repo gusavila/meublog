@@ -73,7 +73,6 @@ header a:hover {
 
 main {
     min-width: 250px;
-    padding: 20px;
     margin: auto;
     text-align: justify;
     background-color: var(--cor5);
@@ -81,8 +80,29 @@ main {
     min-height: 100vh;
 }
 
+.fundo_escuro {
+    background-image: linear-gradient(to right, #8227d6, #a752f7, #008BC7);
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: whitesmoke;
+    color: var(--cor0);
+    text-shadow: 1px 1px 3px rgb(143, 143, 143);
+    padding: 1% 0 1% 0;
+}
+
+.teclado_apple {
+    display: block;
+    padding: 2% 2%;
+    width: 45vmax;
+}
+
 footer {
-    background-color: var(--cor0);
+    background-color: #481479;
     color: white;
     text-align: center;
     font-size: 0.8em;
