@@ -111,40 +111,52 @@ main .pagina_vazia {
     margin-top: 3%;
 }
 
-#img_titulos_div h2 {
+#minhas_fotos {
+    padding: 1% 2%;
+}
+
+#minhas_fotos h2 {
     font-family: 'Cinzel Decorative', cursive;
     font-size: 1.2em;
     font-weight: bold;
-    padding-left: 1%;
     background-image: linear-gradient(to right, #8227d6, #a752f7, #1099d4, #008BC7);
     color: white;
+    margin: 2% 0;
+    padding: 1% 2%;
+    box-shadow: 1px 1px 4px rgb(141, 141, 141);
+    border-radius: 10px;
 }
 
-#img_titulos_div img {
-    margin: 1% 1%;
+#minhas_fotos img {
+    margin: 0% 1% 1% 0%;
     width: 20vmax;
-    border-radius: 8px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 5px rgb(141, 141, 141)
 }
 
 #teclado_apple {
     display: block;
     margin: 2% 2% 1% 2%;
-    border-radius: 4px;
+    border-radius: 2vmax;
     width: 45vmax;
 }
 
 #cat_img {
     display: block;
-    margin: 3% auto;
+    margin: 3vmax auto;
     border-radius: 4px;
-    width: 53vmax;
+    width: 50vmax;
+    border-radius: 2vmax;
+    box-shadow: 1px 1px 4px rgb(141, 141, 141);
 }
 
 #setup_pc {
     display: block;
-    margin: 3% auto;
+    margin: 3vmax auto;
     border-radius: 4px;
     width: 40vmax;
+    border-radius: 300vmax;
+    box-shadow: 1px 1px 4px rgb(141, 141, 141);
 }
 
 footer {
