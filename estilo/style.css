@@ -112,7 +112,7 @@ main .pagina_vazia {
 }
 
 #minhas_fotos {
-    padding: 1% 2%;
+    padding: 1% 4%;
 }
 
 #minhas_fotos h2 {
@@ -121,16 +121,17 @@ main .pagina_vazia {
     font-weight: bold;
     background-image: linear-gradient(to right, #8227d6, #a752f7, #1099d4, #008BC7);
     color: white;
-    margin: 2% 0;
+    margin: 2% auto;
     padding: 1% 2%;
     box-shadow: 1px 1px 4px rgb(141, 141, 141);
-    border-radius: 10px;
+    border-radius: 2px;
+    text-align: center;
 }
 
 #minhas_fotos img {
     margin: 0% 1% 1% 0%;
     width: 20vmax;
-    border-radius: 10px;
+    border-radius: 2px;
     box-shadow: -1px 1px 5px rgb(141, 141, 141)
 }
 
