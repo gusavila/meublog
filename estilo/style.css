@@ -37,7 +37,7 @@ header {
 #site_title {
     background-color: var(--cor0);
     color: white;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: cinzelblack,'Cinzel Decorative', cursive;
     font-weight: 900;
     font-size: 1.1em;
     display: block;
@@ -82,8 +82,7 @@ header a:hover {
 
 main {
     min-width: 250px;
-    margin: auto;
-    background-color: white;
+    margin: auto;  
     color: #3f3f3f;
     font-size: 1.2em;
     min-height: 100vh;
@@ -96,7 +95,7 @@ main {
 
 main h1 {
     text-align: center;
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: cinzelblack,'Cinzel Decorative', cursive;
     font-weight: bold;
     font-size: 2em;
     background-color: white;
@@ -118,7 +117,7 @@ main .pagina_vazia {
 }
 
 #minhas_fotos h2 {
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: cinzelblack,'Cinzel Decorative', cursive;
     font-size: 1.2em;
     font-weight: bold;
     background-image: linear-gradient(to right, #8227d6, #a752f7, #1099d4, #008BC7);
@@ -138,10 +137,8 @@ main .pagina_vazia {
 }
 
 #teclado_apple {
-    display: block;
-    margin: 2% 2% 1% 2%;
-    border-radius: 2vmax;
-    width: 45vmax;
+    width: 20vmax;
+    border-radius: 100%;
 }
 
 #cat_img {
