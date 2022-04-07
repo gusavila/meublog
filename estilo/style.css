@@ -3,11 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&display=swap');
 
 
-/*
-#56d3d3
-#409e9e
-*/
-
 :root {
     --cor0: #8227d6;
     --cor1: #a752f7;
@@ -37,7 +32,7 @@ header {
 #site_title {
     background-color: var(--cor0);
     color: white;
-    font-family: cinzelblack,'Cinzel Decorative', cursive;
+    font-family: cinzelblack,'Cinzel Decorative', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 900;
     font-size: 1.1em;
     display: block;
@@ -95,7 +90,7 @@ main {
 
 main h1 {
     text-align: center;
-    font-family: cinzelblack,'Cinzel Decorative', cursive;
+    font-family: cinzelblack,'Cinzel Decorative', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 2em;
     background-color: white;
@@ -117,7 +112,7 @@ main .pagina_vazia {
 }
 
 #minhas_fotos h2 {
-    font-family: cinzelblack,'Cinzel Decorative', cursive;
+    font-family: cinzelblack,'Cinzel Decorative', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2em;
     font-weight: bold;
     background-image: linear-gradient(to right, #8227d6, #a752f7, #1099d4, #008BC7);
@@ -134,11 +129,6 @@ main .pagina_vazia {
     width: 20vmax;
     border-radius: 2px;
     box-shadow: 1px 1px 5px rgb(150, 150, 150)
-}
-
-#teclado_apple {
-    width: 20vmax;
-    border-radius: 100%;
 }
 
 #cat_img {
