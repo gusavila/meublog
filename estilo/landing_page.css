@@ -73,6 +73,13 @@ main {
     justify-content: space-around;
 }
 
+main p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+    word-spacing: 0.1em;
+}
+
 h2 {
     font-size: 3em;
     line-height: 10px;
@@ -83,10 +90,8 @@ span {
     color: #8227d6;
 }
 
-main p {
-    line-height: 20px;
-    max-width: 500px;
-    font-family: poppinslight;
+strong {
+    color: #1099d4;
 }
 
 img {
