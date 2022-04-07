@@ -67,9 +67,10 @@ a:hover {
 main {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 100px;
     align-items: flex-start;
     justify-content: space-around;
+    height: 33vmax;
 }
 
 h2 {
