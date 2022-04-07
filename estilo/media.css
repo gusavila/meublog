@@ -1,11 +1,33 @@
-@media screen and (max-width: 750px){
+@media screen and (max-width: 970px){
+
+    body{
+        padding-bottom: 0;
+    }
 
     header {
         flex-direction: column;
     }
 
+    header li {
+        margin: 10px 30px 10px 0px;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    #inscreva-se-btn {
+        padding: 10px;
+    }
+
     main {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 20px 40px 60px 40px;
+    }
+
+    main p {
+        text-align: justify;
     }
 
     h2 {
@@ -14,7 +36,7 @@
 
     form {
         margin: 0 auto;
-        width: 100%;
+        width: 90%;
     }
 
     input {
@@ -22,7 +44,8 @@
     }
 
     img {
-        display: none;
+        width: 175px;
+        margin-bottom: 10px;
     }
 
     ul {
