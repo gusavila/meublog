@@ -23,7 +23,7 @@
     main {
         flex-direction: column-reverse;
         align-items: center;
-        margin: 20px 40px 60px 40px;
+        padding: 10px;
     }
 
     main p {
