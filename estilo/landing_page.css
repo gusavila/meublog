@@ -12,12 +12,12 @@
 }
 
 body {
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(32, 32, 32);
     color: white;
     font-family: poppinsregular,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
 }
 
 header {
@@ -25,6 +25,8 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(25,25,25);
+    padding-left: 20px;
 }
 
 #title {
@@ -61,16 +63,15 @@ a:hover {
 #inscreva-se-btn:hover {
     background-image: linear-gradient(to left, #008BC7,#1099d4);
     color: #ffffff;
-    
 }
 
 main {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
+    background-color: rgb(46, 46, 46);
+    height: 80vh;
 }
 
 main p {
@@ -143,6 +144,7 @@ footer a {
 
 footer p {
     padding: 3px;
+    margin: 0;
 }
 
 footer a:hover {
