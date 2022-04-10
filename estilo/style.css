@@ -79,8 +79,9 @@ main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6em;
     color: #3f3f3f;
-    text-align: center;
-    margin-top: 3%;
+    margin-top: 0;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 #minhas_fotos {
@@ -111,12 +112,10 @@ main {
 }
 
 #cat_img {
-    display: block;
-    margin: 3vmax auto;
     border-radius: 4px;
-    width: 50vmax;
     border-radius: 2vmax;
     box-shadow: 1px 1px 4px rgb(141, 141, 141);
+    margin-bottom: 112px;   
 }
 
 #setup_pc {
@@ -143,7 +142,7 @@ footer a {
 }
 
 footer p {
-    padding: 3px;
+    padding: 1px;
     margin: 0;
 }
 
