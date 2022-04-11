@@ -30,12 +30,17 @@
     main {
         flex-direction: column-reverse;
         align-items: center;
-        padding-top: 210px;
+        padding-top: 215px;
         padding-bottom: 30px;
     }
 
     main p {
         text-align: justify;
+    }
+
+    .pagina_vazia {
+        padding: 60px 25px 25px 25px;
+        text-align: center;
     }
 
     #cta {
@@ -68,6 +73,10 @@
     img {
         width: 175px;
         margin: 8px 0;
+    }
+
+    #cat_img {
+        width: 400px; 
     }
 
     ul {
