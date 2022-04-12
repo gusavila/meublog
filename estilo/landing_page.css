@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(30, 30, 30);
     color: white;
     font-family: poppinsregular,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 1400px;
@@ -25,7 +25,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(25,25,25);
+    background-color: rgb(24, 24, 24);
     padding-left: 20px;
 }
 
