@@ -6,7 +6,7 @@
 :root {
     --cor0: #8227d6;
     --cor1: #a752f7;
-    --cor2: #dbb5ff;
+    --cor2: #682aa3;
     --cor3: #008BC7;
     --cor4: #1099d4;
 }
@@ -73,8 +73,62 @@ main {
     background-color: rgb(250, 250, 250);
     margin: 0;
     padding-bottom: 15px;
-    color: #8227d6;
+    color: #682aa3;
 }
+
+/*  Inicio da estilização da página Sobre_mim */
+#bio {
+    line-height: 10px;
+    font-family: poppinsmedium,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#bio img{
+    border-radius: 300px;
+    margin-top: 40px;
+    border: 25px solid rgba(221, 221, 221, 0.349);
+}
+
+#bio h2 {
+    font-family: poppinsbold,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 40px;
+}
+
+#content {
+    text-align: left;
+    padding: 20px 80px;
+    padding-bottom: 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+#content h2 {
+    text-transform: uppercase;
+    font-family: poppinsbold,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 3px;
+}
+
+#content p {
+    font-family: poppinsmedium,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: justify;
+    color: #3f3f3f;
+    padding: 0px 10px 30px 10px;
+}
+
+#redes_sociais {
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+}
+
+#redes_sociais img {
+    width: 10%;
+    height: 30px;
+    border-radius: 4px;
+    margin: 0 3px;
+}
+
+
+/*  fim da estilização da página Sobre_mim */
 
 .pagina_vazia {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
