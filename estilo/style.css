@@ -117,14 +117,11 @@ main {
 #redes_sociais {
     display: flexbox;
     flex-direction: row;
-    text-align: center;
+    text-align: right;
 }
 
 #redes_sociais img {
-    width: 10%;
-    height: 30px;
-    border-radius: 4px;
-    margin: 0 3px;
+    border-radius: 2px; 
 }
 
 

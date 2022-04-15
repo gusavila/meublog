@@ -32,11 +32,24 @@
         flex-direction: column-reverse;
         align-items: center;
         padding-top: 215px;
-        padding-bottom: 30px;
+        padding-bottom: 0px;
     }
 
     main p {
         text-align: justify;
+    }
+
+    #bio p {
+        text-align: center;
+    }
+
+    #redes_sociais {
+        text-align: center;
+    }
+
+    #redes_sociais img {
+        width: 100px;
+        height: 30px; 
     }
 
     .pagina_vazia {
@@ -45,7 +58,7 @@
     }
 
     #cta {
-        padding: 0 20px;
+        padding: 0 20px 30px 20px;
     }
 
     #minhas_fotos {
