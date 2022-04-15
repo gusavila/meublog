@@ -38,11 +38,55 @@
     main p {
         text-align: justify;
     }
+    /*  Inicio da estilização da página Sobre_mim */
+    #bio img {
+        margin-top: 5px;
+    }
+
+    #bio h2 {
+        font-size: 1.4em;
+    }
 
     #bio p {
         text-align: center;
     }
 
+    #content {
+        padding: 14px;
+    }
+
+    #content h2 {
+        font-size: 1.4em;
+        margin-bottom: 0;
+    }
+
+    #content h3 {
+        margin-left: 10px;
+    }
+
+    #english {
+        margin-right: 60px;
+    }
+    
+    #french {
+        margin-right: 42px;
+    }
+
+    .box {
+        width: 310px;
+        margin-left: 125px;
+    }
+    
+    .box2 {
+        width: 250px;
+        margin-left: 125px;
+    }
+    
+    .box3 {
+        width: 50px;
+        margin-left: 125px;
+    }
+    
     #redes_sociais {
         text-align: center;
         margin: 0;
@@ -52,6 +96,8 @@
         width: 100px;
         height: 30px; 
     }
+
+    /*  final da estilização da página Sobre_mim */
 
     .pagina_vazia {
         padding: 60px 25px 25px 25px;
