@@ -17,7 +17,7 @@ body {
     font-family: poppinsregular,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 15px;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(24, 24, 24);
-    padding: 4px 24px;
+    padding: 10px 26px;
 }
 
 #title {
@@ -72,7 +72,7 @@ main {
     justify-content: space-around;
     background-color: rgb(24,24,24);
     margin: 0;
-    padding: 14vh 0;
+    padding: 15vh 0;
 }
 
 main p {
