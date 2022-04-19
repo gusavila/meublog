@@ -12,12 +12,12 @@
 }
 
 body {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(24,24,24);
     color: white;
     font-family: poppinsregular,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0px 15px;
+    padding: 15px;
 }
 
 header {
@@ -70,9 +70,9 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(24,24,24);
     margin: 0;
-    padding: 12vh 0;
+    padding: 16vh 0;
 }
 
 main p {
