@@ -31,12 +31,13 @@
     main {
         flex-direction: column-reverse;
         align-items: center;
-        padding-top: 215px;
+        padding: 215px 10px;
         padding-bottom: 0px;
     }
 
     main p {
         text-align: justify;
+        text-indent: 1em;
     }
 
     form [type = "submit"] {

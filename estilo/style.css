@@ -93,6 +93,10 @@ main {
     line-height: 40px;
 }
 
+#bio p {
+    color: #8226d9;
+}
+
 #content {
     text-align: left;
     padding: 0px 80px;
