@@ -53,15 +53,17 @@ a:hover {
     transition: 0.3s all;
 }
 
-#inscreva-se-btn {
-    background-image: linear-gradient(to left, #511786, #8227d6);
+#entre-em-contato-btn {
+    background-image: linear-gradient(to left, #1f91ad, #681fad);
+    color: var(--light-gray);
+    font-family: var(--font-family-poppinsmedium);
     padding: 13px;
     border-radius: 22px;
 }
 
-#inscreva-se-btn:hover {
-    background-image: linear-gradient(to left, #008BC7,#1099d4);
-    color: #ffffff;
+#entre-em-contato-btn:hover {
+    background-image: linear-gradient(to left, #26b5d9, #8226d9);
+    color: white;
 }
 
 main {

@@ -27,6 +27,7 @@ body {
 }
 
 header {
+    background-color: var(--black);
     display: flex;
     flex-direction: row;
     justify-content: space-between;

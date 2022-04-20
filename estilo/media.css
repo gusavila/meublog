@@ -24,7 +24,7 @@
         margin-bottom: 5px;
     }
 
-    #inscreva-se-btn {
+    #entre-em-contato-btn {
         padding: 10px;
     }
 
@@ -38,6 +38,10 @@
     main p {
         text-align: justify;
     }
+
+    form [type = "submit"] {
+        align-self: center;
+    } 
     /*  Inicio da estilização da página Sobre_mim */
     #bio img {
         margin-top: 5px;
