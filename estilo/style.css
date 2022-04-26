@@ -194,10 +194,7 @@ main {
 
 #minhas_fotos {
     margin: 0 auto;
-    padding: 0 1%;
-    display: flexbox;
-    flex-direction: row;
-    text-align: left;
+    padding: 1% 2%;
 }
 
 #minhas_fotos h2 {
@@ -210,11 +207,22 @@ main {
     padding: 5px 0;
     text-align: center;
     box-shadow: 1px 1px 3px rgb(141, 141, 141);
+    border-radius: 2px;
+}
+
+.image_box {
+    width: 73.2%;
+    text-align: left;
+    margin: 3% auto;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
 }
 
 #minhas_fotos img {
-    margin: 3px;
+    margin: 5px;
     width: 150px;
+    height: 200px;
     border-radius: 3px;
     box-shadow: 1px 1px 3px rgb(150, 150, 150)
 }
