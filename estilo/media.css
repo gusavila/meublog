@@ -2,6 +2,7 @@
 
     body{
         padding: 0;
+        background-color: rgb(24, 24, 24);
     }
 
     header {
@@ -9,15 +10,22 @@
         position: fixed;
         top: 0;
         width: 100%;
-        padding: 0;
+        padding: 10px;
     }
 
     header li {
-        margin: 10px 30px 10px 0px;
+        margin: 10px;
+    }
+    
+    header ul {
+        margin: 0px auto;
+        margin-top: 20px;
+        padding: 0;
     }
 
     #title {
         text-align: center;
+        margin: 20px auto;
     }
 
     #title h1:last-child {
@@ -31,7 +39,7 @@
     main {
         flex-direction: column-reverse;
         align-items: center;
-        margin-top: 215px;
+        margin-top: 205px;
     }
 
     main p {
