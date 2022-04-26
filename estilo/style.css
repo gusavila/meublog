@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: rgb(28, 28, 28);
+    background-color: rgb(24, 24, 24);
     color: white;
     font-family: poppinsregular,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 1400px;
@@ -80,9 +80,12 @@ main {
     line-height: 10px;
     font-family: poppinsmedium,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2) ;
 }
 
-#bio img{
+#foto_de_perfil{
     border-radius: 300px;
     margin-top: 40px;
     border: 25px solid rgba(221, 221, 221, 0.349);
@@ -97,17 +100,28 @@ main {
     color: #6c3a9b;
 }
 
+#devicons {
+    display: inline-block;
+}
+
+#devicons img {
+    height: 50px;
+    width: 60px;
+}
+
 #content {
     text-align: left;
-    padding: 0px 80px;
+    padding: 30px 80px;
+    padding-bottom: 0;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: rgba(242, 230, 255, 0.5);
 }
 
 #content h2 {
     text-transform: uppercase;
     font-family: poppinsbold,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 1px;
-    margin-top: 40px;
+    margin: 0;
 }
 
 #content h3 {
@@ -207,7 +221,6 @@ main {
     padding: 5px 0;
     text-align: center;
     box-shadow: 1px 1px 3px rgb(141, 141, 141);
-    border-radius: 2px;
 }
 
 .image_box {

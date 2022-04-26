@@ -31,8 +31,7 @@
     main {
         flex-direction: column-reverse;
         align-items: center;
-        padding: 215px 10px;
-        padding-bottom: 0px;
+        margin-top: 215px;
     }
 
     main p {
