@@ -26,6 +26,7 @@ header {
     align-items: center;
     background-color: rgb(24,24,24);
     padding: 10px 26px;
+    z-index: 10;
 }
 
 #title {
@@ -224,21 +225,15 @@ main {
 }
 
 .image_box {
-    width: 73.2%;
+    width: 90%;
     text-align: left;
     margin: 3% auto;
     padding: 20px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
     border-radius: 3px;
 }
 
-#minhas_fotos img {
-    margin: 5px;
-    width: 150px;
-    height: 200px;
-    border-radius: 3px;
-    box-shadow: 1px 1px 3px rgb(150, 150, 150)
-}
+
 
 #cat_img {
     border-radius: 4px;

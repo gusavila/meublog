@@ -124,6 +124,11 @@
         padding: 0 20px 30px 20px;
     }
 
+    .image_box {
+        text-align: center;
+        width: 70%;
+    }
+
     #minhas_fotos {
         text-align: center;
         padding: 0;
@@ -147,7 +152,7 @@
         align-self: center;
     }
 
-    img {
+    #teclado_apple {
         width: 175px;
         margin: 8px 0;
     }
