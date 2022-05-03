@@ -185,12 +185,22 @@ main {
     margin-left: 235px;
 }
 
-#cursos a {
-    display: block;
-    color: #3f3f3f;
-    font-family: poppinsmedium,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+#cursos ul {
+    padding: 0;
     text-indent: 10px;
-    margin: 8px 0;
+}
+
+#cursos li {
+    display: block;
+    font-family: poppinsmedium,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin: 10px 0;
+    
+    list-style-position: inside;
+}
+
+#cursos a {
+    color: #3f3f3f;
+    list-style-type: circle;
 }
 
 #redes_sociais {
