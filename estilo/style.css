@@ -118,11 +118,18 @@ main {
     background-color: rgba(242, 230, 255, 0.5);
 }
 
+#content  h2:first-child {
+    margin-top: 10px !important; 
+    border: none;
+}
+
 #content h2 {
     text-transform: uppercase;
     font-family: poppinsbold,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 1px;
-    margin: 0;
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 #content h3 {
@@ -137,16 +144,18 @@ main {
     margin-right: 142px;
 }
 
-#content > p {
+#content p {
     font-family: poppinsmedium,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     text-align: justify;
     color: #3f3f3f;
     text-indent: 10px;
+    margin: 0;
 }
 
 .idioma {
     display: flex;
     flex-direction: row;
+    height: 60px;
 }
 
 .idioma p {
@@ -185,6 +194,10 @@ main {
     margin-left: 235px;
 }
 
+#cursos {
+    margin-bottom: 60px;
+}
+
 #cursos ul {
     padding: 0;
     text-indent: 10px;
@@ -194,7 +207,6 @@ main {
     display: block;
     font-family: poppinsmedium,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     margin: 10px 0;
-    
     list-style-position: inside;
 }
 
@@ -203,10 +215,16 @@ main {
     list-style-type: circle;
 }
 
+#cursos ul {
+    text-align: left;
+}
+
 #redes_sociais {
     display: flexbox;
     flex-direction: row;
     text-align: right;
+    padding-top: 5px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 #redes_sociais img {
