@@ -95,14 +95,16 @@ main {
 #bio h2 {
     font-family: poppinsbold,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 40px;
+    color: #651ea7d8;
 }
 
 #bio p {
-    color: #6c3a9b;
+    color: #5c5c5c;
 }
 
 #devicons {
     display: inline-block;
+    margin-top: 15px;
 }
 
 #devicons img {
@@ -121,6 +123,7 @@ main {
 #content  h2:first-child {
     margin-top: 10px !important; 
     border: none;
+    padding-top: 0px;
 }
 
 #content h2 {
@@ -128,7 +131,7 @@ main {
     font-family: poppinsbold,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 1px;
     margin-top: 50px;
-    padding-top: 25px;
+    padding-top: 35px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 
@@ -145,10 +148,10 @@ main {
 }
 
 #content p {
-    font-family: poppinsmedium,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-family: poppinsregular,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     text-align: justify;
     color: #3f3f3f;
-    text-indent: 10px;
+    text-indent: 20px;
     margin: 0;
 }
 
@@ -200,23 +203,17 @@ main {
 
 #cursos ul {
     padding: 0;
-    text-indent: 10px;
+    text-indent: 20px;
+    text-align: left;
 }
 
 #cursos li {
-    display: block;
-    font-family: poppinsmedium,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    display: block; 
     margin: 10px 0;
-    list-style-position: inside;
 }
 
 #cursos a {
     color: #3f3f3f;
-    list-style-type: circle;
-}
-
-#cursos ul {
-    text-align: left;
 }
 
 #redes_sociais {
