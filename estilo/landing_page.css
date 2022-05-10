@@ -73,12 +73,12 @@ nav a:hover {
 }
 
 #entre-em-contato-btn:hover {
-    background-image: linear-gradient(to left, #26b5d9, #8226d9);
+    background-image: linear-gradient(to left, hsl(192, 70%, 50%), #8226d9);
     color: white;
 }
 
 #entre-em-contato-btn:active {
-    background-image: linear-gradient(to left, #1b7f98, #5b1b98);
+    background-image: linear-gradient(to left, hsl(192, 70%, 35%), #5b1b98);
 }
 
 main {
