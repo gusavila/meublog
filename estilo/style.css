@@ -81,7 +81,7 @@ main {
     line-height: 10px;
     font-family: poppinsmedium,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2) ;
+    
     background-image: linear-gradient(to left, #1f91ad, #681fad);
     color: white;
 }
@@ -91,6 +91,7 @@ main {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1);
     padding-bottom: 30px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.6) ;
 }
 
 #foto_de_perfil{
@@ -211,7 +212,6 @@ main {
 
 #cursos li {
     display: block; 
-    margin: 10px 0;
     background-image: linear-gradient(to left, #1f91ad, #681fad);
     width: 310px;
     padding: 5px;

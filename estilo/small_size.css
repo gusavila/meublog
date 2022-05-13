@@ -1,0 +1,59 @@
+@media screen and (max-width: 460px){
+
+    body {
+        font-size: 0.9em;
+    }
+
+    #title {
+        margin: 0 auto;
+    }
+    
+    header ul {
+        margin-top: 10px;
+    }
+
+    main {
+        margin-top: 193px;
+    }
+    
+     /*  Inicio da estilização da página Sobre_mim */
+
+    .overlay {
+        padding-bottom: 15px;
+    }
+
+    #devicons {
+        margin-top: 0;
+    }
+    
+    #devicons img {
+        width: 35px;
+        height: 35px;
+        margin: 3px;
+    }
+
+    .box {
+        width: 150px;
+        margin-left: 125px;
+    }
+    
+    .box2 {
+        width: 120px;
+        margin-left: 125px;
+    }
+    
+    .box3 {
+        width: 30px;
+        margin-left: 125px;
+    }
+
+    #cursos {
+        margin: 0;
+    }
+
+    #cursos li{
+        font-size: 0.8em;
+        width: 250px;
+    }
+      /*  final da estilização da página Sobre_mim */
+}
