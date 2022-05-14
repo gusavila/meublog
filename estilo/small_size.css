@@ -51,9 +51,18 @@
         margin: 0;
     }
 
-    #cursos li{
+    #cursos li {
         font-size: 0.8em;
         width: 250px;
+    }
+
+    #content {
+        padding-bottom: 0;
+    }
+
+    #redes_sociais img {
+        width: 140px;
+        margin: 0 1px;
     }
       /*  final da estilização da página Sobre_mim */
 }
