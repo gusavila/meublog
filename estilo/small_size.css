@@ -15,6 +15,14 @@
     main {
         margin-top: 193px;
     }
+
+    h2 span {
+        line-height: 25px;
+    }
+
+    form [type = "submit"] {
+        width: 222px;
+    }
     
      /*  Inicio da estilização da página Sobre_mim */
 
