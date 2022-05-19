@@ -25,7 +25,7 @@
 
     #title {
         text-align: center;
-        margin: 20px auto;
+        margin: 20px 0px;
     }
 
     #title h1:last-child {
@@ -39,7 +39,7 @@
     main {
         flex-direction: column-reverse;
         align-items: center;
-        margin-top: 205px;
+        padding-top: 140px;
     }
 
     main p {
