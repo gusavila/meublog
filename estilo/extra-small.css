@@ -1,0 +1,9 @@
+@media screen and (max-width: 422px) {
+    main {
+        padding-top: 180px;
+    }
+
+    #cat_img {
+        width: 90%;
+    }
+}

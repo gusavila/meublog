@@ -13,7 +13,7 @@
     }
 
     main {
-        margin-top: 193px;
+        padding-top: 140px;
     }
 
     h2 span {
@@ -73,4 +73,8 @@
         margin: 0 1px;
     }
       /*  final da estilização da página Sobre_mim */
+
+    #cat_img {
+        width: 300px;
+    }
 }
