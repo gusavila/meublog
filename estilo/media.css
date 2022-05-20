@@ -149,6 +149,10 @@
         margin: 0 auto;
         width: 90%;
     }
+    
+    form [type = "submit"] {
+        width: 222px;
+    }
 
     input {
         align-self: center;
