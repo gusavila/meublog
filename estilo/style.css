@@ -215,7 +215,6 @@ main {
 
 #cursos li {
     display: block; 
-    background-image: linear-gradient(to left, #1f91ad, #681fad);
     width: 310px;
     padding: 5px;
     margin: 4px;
@@ -223,15 +222,15 @@ main {
 }
 
 #cursos a {
-    color: white;
+    color: #3f3f3f;
 }
 
 #cursos a:hover {
-    color: hsl(192, 59%, 70%);
+    color: hsl(192, 59%, 50%);
 }
 
 #cursos a:active {
-    color: hsl(192, 59%, 50%);
+    color: hsl(192, 59%, 45%);
 }
 
 #redes_sociais {
