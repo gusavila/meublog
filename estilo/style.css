@@ -214,11 +214,16 @@ main {
 }
 
 #cursos li {
-    display: block; 
-    width: 310px;
+    display: list-item; 
+    list-style-position: inside;
     padding: 5px;
     margin: 4px;
     border-radius: 15px;
+}
+
+#cursos li:hover {
+    color: #008BC7;
+    transition: 0.3s all;
 }
 
 #cursos a {
