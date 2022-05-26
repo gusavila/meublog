@@ -32,13 +32,13 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 26px;
 }
 
 #title {
     font-family: var(--font-family-display);
     flex-direction: column;
     line-height: 13px;
+    padding-left: 20px;
 }
 
 h1 {
