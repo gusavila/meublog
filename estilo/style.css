@@ -257,6 +257,17 @@ main {
 
 /*  fim da estilização da página Sobre_mim */
 
+
+/*  inicio da estilização da página contato */
+#lista_de_contatos {
+    width: 400px;
+    height: 70vh;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+    margin: 30px auto 20px auto;
+}
+
+/*  fim da estilização da página contato */
+
 .pagina_vazia {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6em;
