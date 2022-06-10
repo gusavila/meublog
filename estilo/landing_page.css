@@ -17,6 +17,26 @@
     --font-family-poppinsmedium: poppinsmedium, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: hsl(192 59% 45% / 1);
+    margin-block: .5em;
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(hsl(192 100% 20%), #681fad, hsl(192 100% 20%));
+    border: .15em solid hsl(192 59% 45% / 1);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: hsl(192 100% 10% / 1);
+}
+
 body {
     background-color: var(--black);
     color: white;
