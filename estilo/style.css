@@ -228,6 +228,10 @@ main {
     margin-left: 235px;
 }
 
+#sobre_mim_text {
+    line-height: 1.75em;
+}
+
 #cursos {
     margin-bottom: 60px;
 }
