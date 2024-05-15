@@ -4,7 +4,7 @@
 
 
 :root {
-    --black: #181818;
+    --black: #242424;
     --purple: #681fad;
     --light-purple: #8226d9;
     --lighter-purple: #9649df;
@@ -38,12 +38,14 @@
 }
 
 body {
-    background-color: var(--black);
-    color: white;
+    background-color: white;
+    color: var(--black);
     font-family: var(--font-family-poppinsregular);
+}
+
+.container {
     max-width: 1250px;
-    margin: 0 auto;
-    padding: 0 15px;
+    margin: 24px auto;
 }
 
 header {
@@ -52,6 +54,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 0 2em;
 }
 
 #title {
@@ -108,6 +111,7 @@ main {
     align-items: center;
     justify-content: space-around;
     padding: 15vh 0;
+    background-color: rgb(240, 240, 240);
 }
 
 main p {
