@@ -41,11 +41,13 @@ body {
     background-color: white;
     color: var(--black);
     font-family: var(--font-family-poppinsregular);
+    margin: 0;
 }
 
 .container {
     max-width: 1250px;
     margin: 24px auto;
+    border-radius: 12px;
 }
 
 header {
@@ -55,6 +57,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0 2em;
+    border-radius: 12px 12px 0 0;
 }
 
 #title {
@@ -85,24 +88,6 @@ a:hover {
 
 nav a:hover {
     color: var(--lighter-purple);
-}
-
-#entre-em-contato-btn {
-    background-image: linear-gradient(to left, #1f91ad, #681fad);
-    color: var(--light-gray);
-    font-family: var(--font-family-poppinsmedium);
-    padding: 13px;
-    border-radius: 22px;
-    visibility: hidden;
-}
-
-#entre-em-contato-btn:hover {
-    background-image: linear-gradient(to left, hsl(192, 70%, 50%), #8226d9);
-    color: white;
-}
-
-#entre-em-contato-btn:active {
-    background-image: linear-gradient(to left, hsl(192, 70%, 35%), #5b1b98);
 }
 
 main {
@@ -181,6 +166,7 @@ footer {
     text-align: center;
     font-size: 0.8rem;
     font-family: var(--font-family-poppinslight);
+    border-radius: 0 0 12px 12px;
 }
 
 footer a {
